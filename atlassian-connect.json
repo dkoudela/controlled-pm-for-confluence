@@ -19,11 +19,6 @@
   "modules": {
     "blueprints": [
       {
-        "icon": {
-          "width": 48,
-          "height": 48,
-          "url": "/images/blueprintIcon.png"
-        },
         "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.benefitsreviewplan",
         "name": {
           "value": "Benefits Review Plan"
