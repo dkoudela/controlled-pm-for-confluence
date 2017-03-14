@@ -22,7 +22,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.benefitsreviewplan",
+        "key": "benefitsreviewplan",
         "name": {
           "value": "CPM: Benefits Review Plan"
         },
@@ -38,7 +38,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.businesscase",
+        "key": "businesscase",
         "name": {
           "value": "CPM: Business Case"
         },
@@ -54,7 +54,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.checkpointreport",
+        "key": "checkpointreport",
         "name": {
           "value": "CPM: Checkpoint Report"
         },
@@ -70,7 +70,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.communicationmanagementstrategy",
+        "key": "communicationmanagementstrategy",
         "name": {
           "value": "CPM: Communication Management Strategy"
         },
@@ -86,7 +86,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.configurationitemrecord",
+        "key": "configurationitemrecord",
         "name": {
           "value": "CPM: Configuration Item Record"
         },
@@ -102,7 +102,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.dailylog",
+        "key": "dailylog",
         "name": {
           "value": "CPM: Daily Log"
         },
@@ -118,7 +118,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.endprojectreport",
+        "key": "endprojectreport",
         "name": {
           "value": "CPM: End Project Report"
         },
@@ -134,7 +134,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.endstagereport",
+        "key": "endstagereport",
         "name": {
           "value": "CPM: End Stage Report"
         },
@@ -150,7 +150,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.exceptionreport",
+        "key": "exceptionreport",
         "name": {
           "value": "CPM: Exception Report"
         },
@@ -166,7 +166,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.highlightreport",
+        "key": "highlightreport",
         "name": {
           "value": "CPM: Highlight Report"
         },
@@ -182,7 +182,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.issueregister",
+        "key": "issueregister",
         "name": {
           "value": "CPM: Issue Register"
         },
@@ -198,7 +198,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.issuereport",
+        "key": "issuereport",
         "name": {
           "value": "CPM: Issue Report"
         },
@@ -214,7 +214,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.lessonslog",
+        "key": "lessonslog",
         "name": {
           "value": "CPM: Lessons Log"
         },
@@ -230,7 +230,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.lessonsreport",
+        "key": "lessonsreport",
         "name": {
           "value": "CPM: Lessons Report"
         },
@@ -246,7 +246,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.plan",
+        "key": "plan",
         "name": {
           "value": "CPM: Plan"
         },
@@ -262,7 +262,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.productdescription",
+        "key": "productdescription",
         "name": {
           "value": "CPM: Product Description"
         },
@@ -278,7 +278,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.productstatusaccount",
+        "key": "productstatusaccount",
         "name": {
           "value": "CPM: Product Status Account"
         },
@@ -294,7 +294,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.projectbrief",
+        "key": "projectbrief",
         "name": {
           "value": "CPM: Project Brief"
         },
@@ -310,7 +310,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.projectinitiationdocumentation",
+        "key": "projectinitiationdocumentation",
         "name": {
           "value": "CPM: Project Initiation Documentation"
         },
@@ -326,7 +326,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.projectproductdescription",
+        "key": "projectproductdescription",
         "name": {
           "value": "CPM: Project Product Description"
         },
@@ -342,7 +342,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.qualitymanagementstrategy",
+        "key": "qualitymanagementstrategy",
         "name": {
           "value": "CPM: Quality Management Strategy"
         },
@@ -358,7 +358,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.qualityregister",
+        "key": "qualityregister",
         "name": {
           "value": "CPM: Quality Register"
         },
@@ -374,7 +374,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.riskmanagementstrategy",
+        "key": "riskmanagementstrategy",
         "name": {
           "value": "CPM: Risk Management Strategy"
         },
@@ -390,7 +390,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.riskregister",
+        "key": "riskregister",
         "name": {
           "value": "CPM: Risk Register"
         },
@@ -406,7 +406,7 @@
         "icon": {
           "url": "/images/blueprintIcon.png"
         },
-        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.workpackage",
+        "key": "workpackage",
         "name": {
           "value": "CPM: Work Package"
         },
@@ -418,7 +418,6 @@
         },
         "createResult": "edit"
       }
-
     ]
   }
 }
