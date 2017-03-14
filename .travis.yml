@@ -76,7 +76,7 @@ deploy:
     skip_cleanup: true
     on:
         repo: $TRAVIS_REPO_SLUG
-        branch: master
+        branch: cloud
 
 cache:
 # Caching is not allowed for 'sudo: required' builds.
