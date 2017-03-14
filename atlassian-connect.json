@@ -19,9 +19,12 @@
   "modules": {
     "blueprints": [
       {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
         "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.benefitsreviewplan",
         "name": {
-          "value": "Benefits Review Plan"
+          "value": "CPM: Benefits Review Plan"
         },
         "template": {
           "url": "/bptemplates/benefitsreviewplan.xml",
@@ -30,7 +33,392 @@
           }
         },
         "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.businesscase",
+        "name": {
+          "value": "CPM: Business Case"
+        },
+        "template": {
+          "url": "/bptemplates/businesscase.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.checkpointreport",
+        "name": {
+          "value": "CPM: Checkpoint Report"
+        },
+        "template": {
+          "url": "/bptemplates/checkpointreport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.communicationmanagementstrategy",
+        "name": {
+          "value": "CPM: Communication Management Strategy"
+        },
+        "template": {
+          "url": "/bptemplates/communicationmanagementstrategy.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.configurationitemrecord",
+        "name": {
+          "value": "CPM: Configuration Item Record"
+        },
+        "template": {
+          "url": "/bptemplates/configurationitemrecord.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.dailylog",
+        "name": {
+          "value": "CPM: Daily Log"
+        },
+        "template": {
+          "url": "/bptemplates/dailylog.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.endprojectreport",
+        "name": {
+          "value": "CPM: End Project Report"
+        },
+        "template": {
+          "url": "/bptemplates/endprojectreport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.endstagereport",
+        "name": {
+          "value": "CPM: End Stage Report"
+        },
+        "template": {
+          "url": "/bptemplates/endstagereport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.exceptionreport",
+        "name": {
+          "value": "CPM: Exception Report"
+        },
+        "template": {
+          "url": "/bptemplates/exceptionreport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.highlightreport",
+        "name": {
+          "value": "CPM: Highlight Report"
+        },
+        "template": {
+          "url": "/bptemplates/highlightreport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.issueregister",
+        "name": {
+          "value": "CPM: Issue Register"
+        },
+        "template": {
+          "url": "/bptemplates/issueregister.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.issuereport",
+        "name": {
+          "value": "CPM: Issue Report"
+        },
+        "template": {
+          "url": "/bptemplates/issuereport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.lessonslog",
+        "name": {
+          "value": "CPM: Lessons Log"
+        },
+        "template": {
+          "url": "/bptemplates/lessonslog.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.lessonsreport",
+        "name": {
+          "value": "CPM: Lessons Report"
+        },
+        "template": {
+          "url": "/bptemplates/lessonsreport.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.plan",
+        "name": {
+          "value": "CPM: Plan"
+        },
+        "template": {
+          "url": "/bptemplates/plan.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.productdescription",
+        "name": {
+          "value": "CPM: Product Description"
+        },
+        "template": {
+          "url": "/bptemplates/productdescription.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.productstatusaccount",
+        "name": {
+          "value": "CPM: Product Status Account"
+        },
+        "template": {
+          "url": "/bptemplates/productstatusaccount.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.projectbrief",
+        "name": {
+          "value": "CPM: Project Brief"
+        },
+        "template": {
+          "url": "/bptemplates/projectbrief.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.projectinitiationdocumentation",
+        "name": {
+          "value": "CPM: Project Initiation Documentation"
+        },
+        "template": {
+          "url": "/bptemplates/projectinitiationdocumentation.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.projectproductdescription",
+        "name": {
+          "value": "CPM: Project Product Description"
+        },
+        "template": {
+          "url": "/bptemplates/projectproductdescription.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.qualitymanagementstrategy",
+        "name": {
+          "value": "CPM: Quality Management Strategy"
+        },
+        "template": {
+          "url": "/bptemplates/qualitymanagementstrategy.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.qualityregister",
+        "name": {
+          "value": "CPM: Quality Register"
+        },
+        "template": {
+          "url": "/bptemplates/qualityregister.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.riskmanagementstrategy",
+        "name": {
+          "value": "CPM: Risk Management Strategy"
+        },
+        "template": {
+          "url": "/bptemplates/riskmanagementstrategy.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.riskregister",
+        "name": {
+          "value": "CPM: Risk Register"
+        },
+        "template": {
+          "url": "/bptemplates/riskregister.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
+      },
+      {
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        },
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.workpackage",
+        "name": {
+          "value": "CPM: Work Package"
+        },
+        "template": {
+          "url": "/bptemplates/workpackage.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit"
       }
+
     ]
   }
 }
