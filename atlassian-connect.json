@@ -1,7 +1,7 @@
 {
   "name": "Controlled PM for Confluence",
   "description": "This is the Controlled PM plugin for Atlassian Confluence.",
-  "key": "controlled-pm-for-confluence",
+  "key": "com.davidkoudela.confluence.controlled-pm-for-confluence",
   "baseUrl": "https://controlledpm.herokuapp.com",
   "vendor": {
     "name": "David Koudela",
@@ -24,7 +24,7 @@
           "height": 48,
           "url": "/images/blueprintIcon.png"
         },
-        "key": "controlled-pm-for-confluence",
+        "key": "com.davidkoudela.confluence.controlled-pm-for-confluence.benefitsreviewplan",
         "name": {
           "value": "Benefits Review Plan"
         },
