@@ -19,6 +19,11 @@
   "modules": {
     "blueprints": [
       {
+        "icon": {
+          "width": 48,
+          "height": 48,
+          "url": "/images/blueprintIcon.png"
+        },
         "key": "controlled-pm-for-confluence",
         "name": {
           "value": "Benefits Review Plan"
@@ -29,12 +34,7 @@
             "url": "/bptemplates/context"
           }
         },
-        "createResult": "edit",
-        "icon": {
-          "width": 48,
-          "height": 48,
-          "url": "https://controlledpm.herokuapp.com/images/blueprintIcon.png"
-        }
+        "createResult": "edit"
       }
     ]
   }
