@@ -33,7 +33,7 @@
         "icon": {
           "width": 48,
           "height": 48,
-          "url": "/images/blueprintIcon.png"
+          "url": "https://controlledpm.herokuapp.com/images/blueprintIcon.png"
         }
       }
     ]
