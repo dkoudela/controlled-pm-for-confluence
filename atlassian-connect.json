@@ -31,6 +31,8 @@
         },
         "createResult": "edit",
         "icon": {
+          "width": 48,
+          "height": 48,
           "url": "/images/blueprintIcon.png"
         }
       }
