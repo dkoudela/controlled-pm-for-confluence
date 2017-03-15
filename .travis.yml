@@ -72,7 +72,7 @@ deploy:
     provider: heroku
     api_key:
         secure: ZBM9hKoXCEtmrcKR/tmWzxDmupWOx9FC3C83QqUABUQ44N4Th+03GeLRlhgxYl3yT7kynNbqApVR0y1ApA9NZCe05Y3lemQmTD8sxPD/Cd/jdE4f35f7U7IgfpheOdndq+0OYozR1Nbq7RG2UXlQpJRYE3d+J3SQOomBui6Qhfh5NQtLWhdpxbjIQFodlK1D8ORbGZ9D0wc6+Ykk+253IkpAq/NHJ03p3Jdp6e7Io2pzU8OoR9HpCh7tcqcHgspk1X36s0fb2aRL9sk8OQ+VOl6N9Iv2FEy+nT+zC7CPD6gcSPt38mzegp0DZQs21yioAV0Kr883C5GKZ9f/ofh4T4Uy855+sQcwT2O8J2nqwlUjJzmIXjF7P9W9rU5OVoGcG/y9VkKk8WS4AqSAhghwk8PvksWf43LPYthf/QTjKBcfjBQ1bbXfdf/sg09eYfyZWKO+U/NP2H3Zuu4FBZRc1IWBCIDAkrXwiI9FYT7sFfZgHinnZYrgmVyNHYAbuM23MkRbJR6RM1yQROLeOwPncYOhQEhaDRg+/MBjHK5kwkINJbRSDuqDD86f6qyJQRwKRYKn8dfq7Fmz07cOnh/vuK3ezxGjf7teLM2d+bcJ7iaUmkXkmv5fs0xyAOWESKcLd4mbLpXn/TRuNdPav6tbPjQ+LSNIq2yb8UPWRAyGQws=
-    app: controlledpm
+    app: controlledpm-staging
     skip_cleanup: true
     on:
         repo: $TRAVIS_REPO_SLUG
