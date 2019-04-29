@@ -9,13 +9,16 @@
   },
   "links": {
     "documentation": "https://github.com/dkoudela/controlled-pm-for-confluence/wiki",
-    "self": "https://raw.githubusercontent.com/dkoudela/controlled-pm-for-confluence/master/atlassian-connect.json"
+    "self": "https://raw.githubusercontent.com/dkoudela/controlled-pm-for-confluence/cloud/atlassian-connect.json"
   },
   "version": "1.6",
   "authentication": {
     "type": "none"
   },
   "apiVersion": 1,
+  "apiMigrations": {
+    "gdpr": false
+  },
   "modules": {
     "blueprints": [
       {
