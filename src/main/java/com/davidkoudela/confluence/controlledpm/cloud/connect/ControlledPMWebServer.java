@@ -37,6 +37,7 @@ public class ControlledPMWebServer extends HttpServlet {
         } else {
             httpServletResponse.setContentType("text/plain");
         }
+        httpServletResponse.addHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
 
         OutputStream out = null;
         InputStream in = null;
