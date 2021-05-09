@@ -1,7 +1,7 @@
 language: java
 jdk:
 # Explicitly declare the right JDK
-    - oraclejdk8
+    - oraclejdk16
 
 sudo: required
 
@@ -28,7 +28,7 @@ install:
 
 script:
 # Explicitly switch to the right JDK
-    - jdk_switcher use oraclejdk8
+    - jdk_switcher use oraclejdk16
 # Unit tests are part of the Integration tests.
 # It is kept only for further test downgrade
 #    - sudo atlas-unit-test
