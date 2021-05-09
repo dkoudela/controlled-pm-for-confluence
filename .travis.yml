@@ -1,7 +1,7 @@
 language: java
 jdk:
-# Explicitly declare the right JDK
-    - openjdk16
+# Explicitly declare the initial JDK for installation JDK 11+
+    - openjdk10
 
 sudo: required
 
@@ -27,8 +27,15 @@ install:
     - atlas-mvn -q org.apache.maven.plugins:maven-dependency-plugin:resolve-plugins
 
 script:
-# Explicitly switch to the right JDK
-    - jdk_switcher use openjdk16
+# Explicitly switch to the initial JDK for installation JDK 11+
+    - jdk_switcher use openjdk10
+# Install OpenJDK 11+
+    - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
+    - chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
+    - export JAVA_HOME=$HOME/openjdk16
+    - $TRAVIS_BUILD_DIR/install-jdk.sh -F 16 --target $JAVA_HOME
+# Now continue with open OpenJDK 11+
+
 # Unit tests are part of the Integration tests.
 # It is kept only for further test downgrade
 #    - sudo atlas-unit-test
