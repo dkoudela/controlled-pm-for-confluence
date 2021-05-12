@@ -65,10 +65,11 @@ after_success:
     - find * -type f -exec curl --ftp-create-dirs --ftp-ssl-control --insecure -T {} "$REPOSITORYURL/$REPO_SUBDIR/{}" \;
     - cd ../..
 
-after_script:
-# Encrypt and upload the debug log
-    - gpg --output $DEBUG_LOG.pgp -r $GPGEMAIL --trust-model always --encrypt $DEBUG_LOG
-    - curl --ftp-create-dirs --ftp-ssl-control --insecure -T $DEBUG_LOG.pgp "$REPOSITORYURL/$REPO_SUBDIR/"
+# after_script stopped working without any notice. It is disabled for now to allow deploy
+#after_script:
+## Encrypt and upload the debug log
+#    - gpg --output $DEBUG_LOG.pgp -r $GPGEMAIL --trust-model always --encrypt $DEBUG_LOG
+#    - curl --ftp-create-dirs --ftp-ssl-control --insecure -T $DEBUG_LOG.pgp "$REPOSITORYURL/$REPO_SUBDIR/"
 
 branches:
     except:
