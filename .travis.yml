@@ -29,11 +29,13 @@ install:
 script:
 # Explicitly switch to the initial JDK for installation JDK 11+
     - jdk_switcher use openjdk10
+    - sudo java -version
 # Install OpenJDK 11+
-    - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
-    - chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
-    - export JAVA_HOME=$HOME/openjdk16
-    - $TRAVIS_BUILD_DIR/install-jdk.sh -F 16 --target $JAVA_HOME
+    - sudo wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
+    - sudo chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
+    - sudo export JAVA_HOME=$HOME/openjdk16
+    - sudo $TRAVIS_BUILD_DIR/install-jdk.sh -F 16 --target $JAVA_HOME
+    - sudo java -version
 # Now continue with open OpenJDK 11+
 
 # Unit tests are part of the Integration tests.
