@@ -1,7 +1,6 @@
 language: java
-jdk:
 # Explicitly declare the initial JDK for installation JDK 11+
-    - openjdk10
+jdk: openjdk10
 
 sudo: required
 
@@ -17,6 +16,7 @@ before_install:
     - wget http://davidkoudela.cz/github/Common/keys/pubkey.txt -O /tmp/pubkey.txt
     - gpg --import /tmp/pubkey.txt
     - export DEBUG_LOG=/tmp/debug.log
+    - echo >$DEBUG_LOG
 # Install git-lfs repo and packages for managing large files in GIT
     - curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
     - sudo apt-get install git-lfs
@@ -28,7 +28,7 @@ install:
 
 script:
 # Explicitly switch to the initial JDK for installation JDK 11+
-    - jdk_switcher use openjdk10
+    - sudo jdk_switcher use openjdk10
     - sudo java -version
 # Install OpenJDK 11+
     - sudo wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
