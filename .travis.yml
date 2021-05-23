@@ -28,6 +28,7 @@ install:
 
 script:
 # Explicitly switch to the initial JDK for installation JDK 11+
+    - sudo java -version
     - sudo jdk_switcher use openjdk10
     - sudo java -version
 # Install OpenJDK 11+
