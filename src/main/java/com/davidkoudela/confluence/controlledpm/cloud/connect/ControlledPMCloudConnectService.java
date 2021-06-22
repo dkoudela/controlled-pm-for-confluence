@@ -34,6 +34,7 @@ public class ControlledPMCloudConnectService {
             for (String resource : ControlledPMResourceManager.getResources()) {
                 context.addServlet(resource, ControlledPMWebServer.class.getCanonicalName());
             }
+            context.addServlet("/", ControlledPMWebServer.class.getCanonicalName());
             System.out.println("Servlet set");
 
             server.start();

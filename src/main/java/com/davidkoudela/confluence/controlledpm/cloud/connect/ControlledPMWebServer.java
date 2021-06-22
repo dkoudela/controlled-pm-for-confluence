@@ -42,6 +42,18 @@ public class ControlledPMWebServer extends HttpServlet {
         OutputStream out = null;
         InputStream in = null;
         try {
+            boolean resourceFound = false;
+            for (String resource : ControlledPMResourceManager.getResources()) {
+                if (0 == resource.compareTo(contextPath)) {
+                    resourceFound = true;
+                    break;
+                }
+            }
+            if (!resourceFound) {
+                httpServletResponse.sendError(404);
+                return;
+            }
+
             out = httpServletResponse.getOutputStream();
             in = ControlledPMResourceManager.getResourceStream(contextPath);
             try {
