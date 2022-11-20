@@ -13,8 +13,11 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
 
+      - name: Install the latest Atlassian SDK
+        uses: rodrigo-nogues/github-action-install-atlassian-sdk@v1
+
       - name: Build deployment package
-        run: mvn package -gs /usr/share/atlassian-plugin-sdk-8.2.8/apache-maven-3.5.4/conf/settings.xml
+        run: atlas-package
 
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
