@@ -9,9 +9,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Build deployment package
+        run: mvn package -gs /usr/share/atlassian-plugin-sdk-8.2.8/apache-maven-3.5.4/conf/settings.xml
+
+      - name: Generate deployment package
+        run: zip -r deploy.zip . -x '*.git*'
+
+      - name: Deploy to AWS Elastic Beanstalk
+        uses: einaregilsson/beanstalk-deploy@v21
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "sf-controlledpm-staging" #Must be unique in Heroku
-          heroku_email: "dkoudela@volny.cz"
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: controlledpm
+          environment_name: Controlledpm-env
+          version_label: 1.6
+          region: us-east-1
+          deployment_package: deploy.zip
