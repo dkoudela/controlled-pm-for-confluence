@@ -50,7 +50,8 @@ public class ControlledPMWebServer extends HttpServlet {
                 }
             }
             if (!resourceFound) {
-                httpServletResponse.sendError(404);
+                if (0 != contextPath.compareTo("/"))
+                    httpServletResponse.sendError(404);
                 return;
             }
 
