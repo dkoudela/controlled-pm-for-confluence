@@ -30,5 +30,6 @@ jobs:
           application_name: controlledpm
           environment_name: Controlledpm-env
           version_label: 1.6
+          use_existing_version_if_available: true
           region: us-east-1
           deployment_package: deploy.zip
