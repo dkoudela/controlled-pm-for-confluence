@@ -2,7 +2,7 @@
   "name": "Controlled PM for Confluence",
   "description": "This is the Controlled PM plugin for Atlassian Confluence.",
   "key": "com.davidkoudela.confluence.controlled-pm-for-confluence",
-  "baseUrl": "https://controlledpm.herokuapp.com",
+  "baseUrl": "https://apps.controlledpm.com",
   "vendor": {
     "name": "David Koudela",
     "url": "http://www.davidkoudela.com"
@@ -11,7 +11,7 @@
     "documentation": "https://github.com/dkoudela/controlled-pm-for-confluence/wiki",
     "self": "https://raw.githubusercontent.com/dkoudela/controlled-pm-for-confluence/cloud/atlassian-connect.json"
   },
-  "version": "1.6",
+  "version": "1.7",
   "authentication": {
     "type": "none"
   },
